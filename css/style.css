@@ -1,0 +1,306 @@
+body {
+    background-color: rgb(207, 207, 207);
+}
+b {
+    color: rgb(33, 31, 159);
+}
+main i {
+    color: rgb(96, 114, 148);
+}
+
+.mainn {
+    margin-left: 200px;
+    padding: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.mainnn {
+    margin-left: 100px;
+    padding: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainnn b {
+    color: rgb(33, 31, 159);
+}
+
+.mainnn h1 {
+    color: rgb(33, 31, 159);
+}
+
+.mainnn h2 {
+    color: #000;
+}
+
+h2 {
+    color: rgb(33, 31, 159);
+}
+
+.main-texty {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+.konec {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(33, 31, 159);
+    margin-top: auto;
+    text-align: center;
+}
+
+.header1-nadpis {
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    color: #ddd;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu {
+    width: 90px;
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: fixed;
+}
+
+.main-menu a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: rgb(33, 31, 159);
+}
+
+
+.main-menu1 {
+    width: 190px;
+    background-color: #555;
+    right: 7px;
+    padding: 0;
+    overflow: auto;
+    position: fixed;
+}
+
+.main-menu1 a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu1 a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: rgb(33, 31, 159);
+}
+
+
+
+
+
+.main-menu2 {
+    width: 190px;
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    position: fixed;
+}
+
+.main-menu2 a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu2 a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: rgb(33, 31, 159);
+}
+
+
+
+.main-menu85 {
+    width: 190px;
+    background-color: #555;
+    margin-left: 44%;
+    overflow: auto;
+    position: fixed;
+}
+
+.main-menu85 a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu85 a:hover {
+    background-color: rgb(33, 31, 159);
+}
+
+.active {
+    background-color: rgb(33, 31, 159);
+}
+.aa {
+    color: #000;
+    margin-left: 45%;
+}
+.aa b {
+    color: #000;
+}
+.aa a {
+    color: #000;
+}
+.aa a:hover {
+    background-color: rgb(33, 31, 159);
+    color: #ddd;
+}
+
+
+
+
+
+
+.main-kontakt {
+    margin-left: 100px;
+    padding: 0px 10px;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email {
+    color: rgb(33, 31, 159);
+}
+
+
+
+/*search-ZKOUSKA*/
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 11px;
+    border: 1px solid black;
+}
+
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myMenu li a {
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(33, 31, 159);
+    display: block
+}
+
+#myMenu li a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+.search-home {
+    background-color: rgb(33, 31, 159);
+    border: none;
+    width: 150px;
+}
+
+.search-home a {
+    display: block;
+    padding-top: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    height: 60px;
+}
+
+.search-home a:hover {
+    background-color: #000;
+}
+
+/*search-ZKOUSKA*/
+
+
+
+.main-texty {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.w3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.w3 a:hover {
+    background-color: rgb(33, 31, 159);
+    color: white;
+}
+
+.vt {
+    width: 400px;
+    height: 250px;
+ }
+ .cloud {
+    width: 399px;
+    height: 122px;
+ }
+ .office {
+    width: 348px;
+    height: 196px;
+}
+.in {
+    width: 226px;
+    height: 226px;
+}
+.os {
+    width: 535px;
+    height: 267px;
+}
+.zal {
+    width: 600px;
+    height: 315px;
+}

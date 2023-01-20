@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zálohování</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header1-nadpis">Zálohování</h1>
+        <div class="main-menu2">
+            <a href="../index.html"><i class="fa fa-home"></i></a>
+            <a href="../search/index.html"><i class="fa fa-search"></i></a>
+            <a href="../programove_soubory/index.html">Programové soubory</a>
+            <a href="../operacni_systemy/index.html">Operační systémy</a>
+            <a href="../ovladace/index.html">Ovladače</a>
+            <a href="../aplikacni_software/index.html">Aplikační software</a>
+            <a href="../instalace_programu/index.html">Instalace programů</a>
+            <a class="active" href="../dalsi/index.html">Další..</a>
+        </div>
+    </header>
+    <main class="mainn">
+        <h2>Zálohování</h2>
+        <p>
+            <b>Záloha</b> nebo záložní kopie <i>(anglicky backup)</i> je kopie dat uložená na jiném datovém nosiči <i>(nebo i místě)</i>.
+            Záložní data jsou využívána v případě ztráty, poškození nebo jiné potřeby práce s daty uloženými v
+            minulosti. Zálohování probíhá nepravidelně <i>(např. v domácnostech)</i>, nebo pravidelně podle rozvrhu <i>(např. ve
+            firmách)</i>. Používají se různé strategie zálohování; volba správné strategie závisí na tom, zde je potřeba se
+            zálohami pracovat velmi často, nebo je naopak požadována maximální délka archivace zálohovaných dat
+        </p>
+        <h2>Prostředky zálohování</h2>
+        <p>
+            ▫
+            <b>Specializovaný program</b> <i>(např. ve Windows je součástí instalace)</i>. <br><br>
+            ▫
+            <b>Specializovaná zařízení</b> <i>(hardware)</i>, která pracují automatizovaně. <br><br>
+            ▫
+            <b>Komplexní zálohovací systémy</b> umožňující efektivně zálohovat mnoho počítačů propojených počítačovou sítí,
+            nebo naopak na mnoho počítačů propojených v síti data zálohovat <i>(tzv. úložný cluster)</i>.
+        </p>
+        <h2>Typy zálohování</h2>
+        <p>
+            <b>Nestrukturovaná</b>. Úložištěm může být větší množství disket, CD, DVD medií s minimem informací o záloze;
+            nejjednodušší, ale nevhodná pro větší firmy. <br><br>
+            Úplná + inkrementální. Cílem je vytvořit více kopií zálohovaných dat; poprvé je provedena úplná záloha všech
+            dat; poté je prováděna tzv. inkrementální záloha <i>(tj. přírůstková, ukládány jsou pouze soubory, které se
+            změnily od předešlé úplné nebo inkrementální zálohy)</i>; při obnově je nutné použít první úplnou i všechny
+            následující inkrementální zálohy <i>(náročné na paměťový prostor)</i>. <br><br>
+            <b>Úplná + rozdílová</b>. Rozdíl oproti předešlé metodě je v tom, že po úplné záloze každá částečná záloha zachytí
+            všechny soubory vytvořené nebo změněné od vytvoření úplné zálohy, třebaže některé už jsou obsaženy v
+            předešlé částečné záloze; výhodou je, že obnova zahrnuje obnovení pouze poslední úplné zálohy a její
+            překrytí poslední rozdílovou zálohou. <br><br>
+            <b>Zrcadlová + reverzně přírůstková</b>. Tento model obsahuje zrcadlo reflektující stav systému po poslední záloze
+            a historii přírůstkových záloh; výhodou je, že máme neustále k dispozici aktuální plnou zálohu a ukládáme
+            pouze historii změn; metoda se nehodí pro přenosná media, protože každá záloha musí být provedena pomocí
+            srovnání se zrcadlem. <br><br>
+           <b> Průběžná ochrana dat</b> <i>(žurnálování)</i>. Metoda využívá místo plánovaných periodických záloh okamžitý zápis každé
+            změny do žurnálu změn <i>(logu)</i>; provádí se ukládáním bytů nebo celých bloků dat místo ukládání celých
+            změněných souborů; průběžný záznam změn v žurnálu umožňuje získat obraz dat v minulosti; naproti tomu prosté
+            zrcadlení dat na druhý disk <i>(např. RAID 1)</i> stav v minulosti nezachycuje.
+        </p>
+        <img class="zal" src="../img/zal.jpg" alt="zal">
+    </main>
+    <footer>
+        <div class="konec">
+            <hr>
+            <p>&copy; 2023 - Autor: <i>Jakub Šoltys</i>, <b>IT1</b> &#xAE;</p>
+        </div>
+    </footer>
+</body>
+
+</html>

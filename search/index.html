@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hledat</title>
+</head>
+
+<body>
+    <header class="header-search">
+        <h1 class="header1-nadpis">Hledat</h1>
+    </header>
+    <main class="main-search">
+        <div class="search-home">
+            <a href="../index.html"><i class="fa fa-home"></i></a>
+        </div>
+
+        <br>
+
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Hledat.." title="Type in a category">
+        <ul id="myMenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../kontakt/index.html">Kontakt</a></li>
+            <li><a href="../programove_soubory/index.html">Programové soubory</a></li>
+            <li><a href="../operacni_systemy/index.html">Operční systémy</a></li>
+            <li><a href="../ovladace/index.html">Ovladače</a></li>
+            <li><a href="../aplikacni_software/index.html">Aplikační software</a></li>
+            <li><a href="../instalace_programu/index.html">Instalace programů</a></li>
+            <li><a href="../softwarove_licence/index.html">Softwarové licence</a></li>
+            <li><a href="../autorsky_zakon/index.html">Autorský zákon</a></li>
+            <li><a href="../virtualizace/index.html">Virtualizace</a></li>
+            <li><a href="../cloud/index.html">Cloud</a></li>
+            <li><a href="../zalohovani/index.html">Zálohování</a></li>
+        </ul>
+
+
+        <script>
+            function myFunction() {
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <div class="konec">
+            <hr>
+            <p>&copy; 2023 - Autor: <i>Jakub Šoltys</i>, <b>IT1</b> &#xAE;</p>
+        </div>
+    </footer>
+</body>
+
+</html>
